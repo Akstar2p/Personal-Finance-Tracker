@@ -1,0 +1,43 @@
+// BudgetRequestDto.java
+package com.financetracker.dto;
+
+import java.math.BigDecimal;
+import java.time.YearMonth;
+
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Positive;
+
+public class BudgetRequestDto {
+    @NotNull
+    private String categoryName; // assuming categories are identified by name + type elsewhere
+
+    @NotNull
+    private YearMonth month;
+
+    @NotNull @Positive
+    private BigDecimal monthlyLimit;
+
+    // getters and setters
+}
+
+// BudgetResponseDto.java
+package com.financetracker.dto;
+
+import java.math.BigDecimal;
+import java.time.YearMonth;
+
+public class BudgetResponseDto {
+    private Long id;
+    private String categoryName;
+    private YearMonth month;
+    private BigDecimal monthlyLimit;
+
+    public BudgetResponseDto(Long id, String categoryName, YearMonth month, BigDecimal monthlyLimit) {
+        this.id = id;
+        this.categoryName = categoryName;
+        this.month = month;
+        this.monthlyLimit = monthlyLimit;
+    }
+
+    // getters
+}

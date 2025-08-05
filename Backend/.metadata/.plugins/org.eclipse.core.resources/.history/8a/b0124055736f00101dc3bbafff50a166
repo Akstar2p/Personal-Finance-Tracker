@@ -1,0 +1,38 @@
+package com.financetracker.services;
+
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Service;
+
+import com.financetracker.dao.UserRepository;
+import com.financetracker.dto.UserReqDTO;
+import com.financetracker.entities.User;
+import com.financetracker.enums.Role;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.*;
+
+@Service
+@AllArgsConstructor
+public class UserServiceImpl implements UserService {
+
+    private final UserRepository userRepository;
+    private final ModelMapper modelMapper;
+    private final PasswordEncoder passwordEncoder;
+
+    @Override
+    public Object signUp(UserReqDTO dto) {
+        if (userRepository.findByUsername(dto.getEmail()).isPresent()) {
+            return "User already exists";
+        }
+        User user = User.builder()
+                .username(dto.getUsername())
+                .email(dto.getEmail())
+                .password(passwordEncoder.encode(dto.getPassword()))
+                .role(Role.USER)
+                .balance(java.math.BigDecimal.ZERO)
+                .build();
+        userRepository.save(user);
+        return "Signup successful";
+    }
+}

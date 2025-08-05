@@ -1,0 +1,8 @@
+package com.financetracker.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.financetracker.entities.Category;
+
+public interface CategoryRepository extends JpaRepository<Category, Long> {
+}

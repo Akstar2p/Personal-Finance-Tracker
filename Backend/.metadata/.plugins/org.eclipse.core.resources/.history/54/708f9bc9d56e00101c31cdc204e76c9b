@@ -1,0 +1,23 @@
+package com.financetracker.dto;
+
+import java.math.BigDecimal;
+import java.time.LocalDate;
+
+import com.financetracker.enums.TransactionType;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+
+@Getter
+@Setter
+@ToString
+public class TransactionRequestDto extends BaseDto {
+    private BigDecimal amount;
+    private LocalDate date;
+    private String description;
+    private TransactionType type;
+    private Long categoryId;
+    private Long goalid; // optional
+}

@@ -1,0 +1,60 @@
+package com.financetracker.controllers;
+
+package com.financetracker.controllers;
+
+import java.util.List;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.web.bind.annotation.*;
+
+import com.financetracker.dto.CategoryRequestDto;
+import com.financetracker.dto.CategoryResponseDto;
+import com.financetracker.services.CategoryService;
+
+import lombok.AllArgsConstructor;
+
+@RestController
+@RequestMapping("/categories")
+@AllArgsConstructor
+@CrossOrigin(origins = "http://localhost:3000")
+public class CategoryController {
+
+    private final CategoryService categoryService;
+
+    // Anyone authenticated can list categories
+    @GetMapping
+    public ResponseEntity<?> listAll() {
+        return ResponseEntity.ok(categoryService.listAllCategories());
+    }
+
+    // Anyone authenticated can view a single category
+    @GetMapping("/{id}")
+    public ResponseEntity<?> get(@PathVariable Long id) {
+        return ResponseEntity.ok(categoryService.getCategory(id));
+    }
+
+    // Admin only: create category
+    @PostMapping
+    @PreAuthorize("hasRole('ADMIN')")
+    public ResponseEntity<?> create(@RequestBody CategoryRequestDto dto) {
+        return ResponseEntity.status(201).body(categoryService.createCategory(dto));
+    }
+
+    // Admin only: update
+    @PutMapping("/{id}")
+    @PreAuthorize("hasRole('ADMIN')")
+    public ResponseEntity<?> update(@PathVariable Long id,
+                                                      @RequestBody CategoryRequestDto dto) {
+        return ResponseEntity.ok(categoryService.updateCategory(id, dto));
+    }
+
+    // Admin only: delete
+    @DeleteMapping("/{id}")
+    @PreAuthorize("hasRole('ADMIN')")
+    public ResponseEntity<?> delete(@PathVariable Long id) {
+        categoryService.deleteCategory(id);
+        return ResponseEntity.noContent().build();
+    }
+}
+

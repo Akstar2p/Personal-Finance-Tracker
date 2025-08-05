@@ -1,0 +1,51 @@
+package com.financetracker.entities;
+
+import java.math.BigDecimal;
+import java.time.LocalDate;
+
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.financetracker.enums.GoalStatus;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Entity
+@Table(name = "goals")
+@Getter
+@Setter
+@NoArgsConstructor
+public class Goal {
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String title;
+
+    @Column(name = "target_amount", nullable = false)
+    private BigDecimal targetAmount;
+
+    @Column(name = "current_amount", nullable = false)
+    private BigDecimal currentAmount = BigDecimal.ZERO;
+
+    private LocalDate deadline;
+
+    @Enumerated(EnumType.STRING)
+    private GoalStatus status = GoalStatus.ACTIVE;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id", nullable = false)
+    private User user;
+
+
+}

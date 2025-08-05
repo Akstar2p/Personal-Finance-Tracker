@@ -1,0 +1,12 @@
+package com.financetracker.dao;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.financetracker.entities.Goal;
+import com.financetracker.enums.GoalStatus;
+
+public interface GoalRepository extends JpaRepository<Goal, Long> {
+    List<Goal> findByUserIdAndStatus(Long userId, GoalStatus status);
+}

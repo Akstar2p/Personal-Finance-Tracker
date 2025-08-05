@@ -1,0 +1,64 @@
+	package com.financetracker.controllers;
+
+import java.math.BigDecimal;
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.financetracker.dto.TransactionRequestDto;
+import com.financetracker.dto.TransactionResponseDto;
+import com.financetracker.services.TransactionService;
+
+import jakarta.validation.Valid;
+import lombok.AllArgsConstructor;
+
+@RestController
+@RequestMapping("/api/transactions")
+@AllArgsConstructor
+public class TransactionController {
+
+    private final TransactionService transactionService;
+    private final JwtUtil jwtUtil; // hypothetical utility to extract user ID from token
+
+	/*
+	 * public TransactionController(TransactionService transactionService, JwtUtil
+	 * jwtUtil) { this.transactionService = transactionService; this.jwtUtil =
+	 * jwtUtil; }
+	 */
+
+    @PostMapping
+    public ResponseEntity<TransactionResponseDto> addTransaction(
+            @RequestBody @Valid TransactionRequestDto dto,
+            @RequestHeader("Authorization") String authHeader) {
+
+        Long userId = jwtUtil.extractUserId(authHeader);
+        TransactionResponseDto response = transactionService.createTransaction(dto, userId);
+        return ResponseEntity.status(HttpStatus.CREATED).body(response);
+    }
+
+    @GetMapping
+    public ResponseEntity<List<TransactionResponseDto>> getMyTransactions(
+            @RequestHeader("Authorization") String authHeader) {
+
+        Long userId = jwtUtil.extractUserId(authHeader);
+        List<TransactionResponseDto> list = transactionService.listUserTransactions(userId);
+        return ResponseEntity.ok(list);
+    }
+
+    @GetMapping("/balance")
+    public ResponseEntity<Map<String, BigDecimal>> getBalance(
+            @RequestHeader("Authorization") String authHeader) {
+
+        Long userId = jwtUtil.extractUserId(authHeader);
+        BigDecimal balance = transactionService.getBalance(userId);
+        return ResponseEntity.ok(Map.of("balance", balance));
+    }
+}

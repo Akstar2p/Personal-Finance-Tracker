@@ -1,0 +1,5 @@
+package com.financetracker.entities;
+
+public class BaseEntity {
+
+}

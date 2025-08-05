@@ -1,0 +1,15 @@
+package com.financetracker.services;
+
+import java.math.BigDecimal;
+import java.util.List;
+
+import com.financetracker.dto.TransactionRequestDto;
+import com.financetracker.dto.TransactionResponseDto;
+
+public interface TransactionService {
+	TransactionResponseDto createTransaction(TransactionRequestDto dto, Long userId);
+
+	List<TransactionResponseDto> listUserTransactions(Long userId);
+
+	BigDecimal getBalance(Long userId);
+}

@@ -1,0 +1,108 @@
+package com.financetracker.services;
+
+import java.math.BigDecimal;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.financetracker.customexceptions.BadRequestException;
+import com.financetracker.customexceptions.InsufficientBalanceException;
+import com.financetracker.customexceptions.ResourceNotFoundException;
+import com.financetracker.dao.CategoryRepository;
+import com.financetracker.dao.GoalRepository;
+import com.financetracker.dao.TransactionRepository;
+import com.financetracker.dao.UserRepository;
+import com.financetracker.dto.TransactionRequestDto;
+import com.financetracker.dto.TransactionResponseDto;
+import com.financetracker.entities.Category;
+import com.financetracker.entities.Goal;
+import com.financetracker.entities.Transaction;
+import com.financetracker.entities.User;
+import com.financetracker.enums.GoalStatus;
+import com.financetracker.enums.TransactionType;
+import com.financetracker.utils.TransactionMapper;
+
+import jakarta.transaction.Transactional;
+import lombok.AllArgsConstructor;
+
+@Service
+@AllArgsConstructor
+public class TransactionServiceImpl implements TransactionService {
+
+	private final TransactionRepository transactionRepository;
+	private final UserRepository userRepository;
+	private final CategoryRepository categoryRepository;
+	private final GoalRepository goalRepository;
+	private final TransactionMapper mapper;
+
+
+
+	@Override
+	@Transactional
+	public TransactionResponseDto createTransaction(TransactionRequestDto dto, Long userId) {
+		User user = userRepository.findById(userId).orElseThrow(() -> new ResourceNotFoundException("User not found"));
+
+		Category category = categoryRepository.findById(dto.getCategoryId())
+				.orElseThrow(() -> new ResourceNotFoundException("Category not found"));
+
+		Goal goal = null;
+		if (dto.getGoalId() != null) {
+			goal = goalRepository.findById(dto.getGoalId())
+					.orElseThrow(() -> new ResourceNotFoundException("Goal not found"));
+			if (!goal.getUser().getId().equals(userId)) {
+				throw new BadRequestException("Goal does not belong to user");
+			}
+		}
+
+		// Optional overdraft check for expense
+		if (dto.getType() == TransactionType.EXPENSE) {
+			BigDecimal currentBalance = user.getBalance();
+			if (currentBalance.subtract(dto.getAmount()).compareTo(BigDecimal.ZERO) < 0) {
+				throw new InsufficientBalanceException("Insufficient balance for this expense");
+			}
+		}
+
+		Transaction tx = new Transaction();
+		tx.setAmount(dto.getAmount());
+		tx.setDate(dto.getDate());
+		tx.setDescription(dto.getDescription());
+		tx.setType(dto.getType());
+		tx.setUser(user);
+		tx.setCategory(category);
+		tx.setGoal(goal);
+
+		transactionRepository.save(tx);
+
+		// Update user balance (cached)
+		if (dto.getType() == TransactionType.INCOME) {
+			user.setBalance(user.getBalance().add(dto.getAmount()));
+		} else {
+			user.setBalance(user.getBalance().subtract(dto.getAmount()));
+		}
+		userRepository.save(user);
+
+		// Update goal progress if linked and income
+		if (goal != null && dto.getType() == TransactionType.INCOME) {
+			goal.setCurrentAmount(goal.getCurrentAmount().add(dto.getAmount()));
+			if (goal.getCurrentAmount().compareTo(goal.getTargetAmount()) >= 0) {
+				goal.setStatus(GoalStatus.COMPLETED);
+			}
+			goalRepository.save(goal);
+		}
+
+		return mapper.toDto(tx);
+	}
+
+	@Override
+	public List<TransactionResponseDto> listUserTransactions(Long userId) {
+		List<Transaction> list = transactionRepository.findByUserIdOrderByDateDesc(userId);
+		return list.stream().map(mapper::toDto).toList();
+	}
+
+	@Override
+	public BigDecimal getBalance(Long userId) {
+		// Return cached balance
+		User user = userRepository.findById(userId).orElseThrow(() -> new ResourceNotFoundException("User not found"));
+		return user.getBalance();
+	}
+}

@@ -64,3 +64,2743 @@ java.lang.IllegalStateException: Unexpected null value present!
 
 !ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-07-28 15:26:30.610
 !MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+!SESSION 2025-07-31 22:21:01.958 -----------------------------------------------
+eclipse.buildId=4.35.0.202504180233
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-31 22:22:27.465
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-31 22:22:28.285
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-31 22:22:34.524
+!MESSAGE Logback config file: D:\CDAC 2025\Personal_Finance_Tracker\Backend\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-31 22:22:36.573
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-31 22:22:36.573
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-07-31 22:22:37.985
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-31 22:22:37.986
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-31 22:22:56.516
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Akshay'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2025-07-31 22:23:16.719
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-31 22:23:16.719
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2025-08-01 13:13:17.163 -----------------------------------------------
+eclipse.buildId=4.35.0.202504180233
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-01 13:14:29.317
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-08-01 13:14:29.989
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-01 13:15:03.258
+!MESSAGE Logback config file: D:\CDAC 2025\Personal_Finance_Tracker\Backend\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-08-01 13:15:04.546
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-01 13:15:04.546
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-08-01 13:15:05.327
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-01 13:15:05.327
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-08-01 13:15:19.775
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Akshay'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-01 13:20:33.309
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-01 15:37:06.888
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-01 15:54:32.912
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-01 17:31:03.934
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-01 17:31:52.497
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-01 17:34:11.035
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:35:01.529
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=495, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:35:01.531
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=502, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:35:01.533
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=582, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:35:01.535
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=589, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:35:01.538
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=606, length=11, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:35:01.541
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=648, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:35:09.188
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=495, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:35:09.190
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=502, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:35:09.191
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=582, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:35:09.193
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=589, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:35:09.194
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=606, length=11, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:35:09.196
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=648, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:36:39.749
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=495, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:36:39.750
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=502, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:36:39.751
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=582, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:36:39.787
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=589, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:36:39.788
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=606, length=11, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:36:39.788
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=648, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:52:34.579
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=495, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:52:34.644
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=502, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:52:34.646
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=582, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:52:34.648
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=589, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:52:34.650
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=606, length=11, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:52:34.652
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=648, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:52:36.421
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=495, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:52:36.422
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=502, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:52:36.428
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=582, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:52:36.429
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=589, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:52:36.430
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=606, length=11, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-01 17:52:36.431
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=648, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-01 17:55:09.749
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-01 17:59:20.518
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-01 18:53:05.420
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-08-01 22:51:42.290
+!MESSAGE Unexpected null value present!
+!STACK 0
+java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.operations.semanticTokens.SemanticTokensClient.requestFullSemanticTokens(SemanticTokensClient.java:45)
+	at org.eclipse.lsp4e.operations.semanticTokens.SemanticHighlightReconcilerStrategy.fullReconcile(SemanticHighlightReconcilerStrategy.java:239)
+	at org.eclipse.lsp4e.operations.semanticTokens.SemanticHighlightReconcilerStrategy.initialReconcile(SemanticHighlightReconcilerStrategy.java:258)
+	at org.eclipse.ui.internal.genericeditor.CompositeReconcilerStrategy.initialReconcile(CompositeReconcilerStrategy.java:48)
+	at org.eclipse.jface.text.reconciler.Reconciler.initialProcess(Reconciler.java:223)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-01 22:51:43.239
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-01 22:51:43.253
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-01 22:51:43.256
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-01 22:51:43.265
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-01 22:51:43.323
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-01 22:51:43.346
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+!SESSION 2025-08-02 10:29:39.709 -----------------------------------------------
+eclipse.buildId=4.35.0.202504180233
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-02 10:32:06.915
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-08-02 10:32:08.261
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-02 10:32:16.645
+!MESSAGE Logback config file: D:\CDAC 2025\Personal_Finance_Tracker\Backend\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-08-02 10:32:18.458
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-02 10:32:18.458
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-08-02 10:32:19.884
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-02 10:32:19.884
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-08-02 10:32:45.568
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Akshay'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-02 10:33:05.124
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:100)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:421)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-02 10:38:53.860
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-02 11:46:57.483
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-02 11:47:10.989
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-08-02 12:11:47.112
+!MESSAGE Unexpected null value present!
+!STACK 0
+java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.operations.semanticTokens.SemanticTokensClient.requestFullSemanticTokens(SemanticTokensClient.java:45)
+	at org.eclipse.lsp4e.operations.semanticTokens.SemanticHighlightReconcilerStrategy.fullReconcile(SemanticHighlightReconcilerStrategy.java:239)
+	at org.eclipse.lsp4e.operations.semanticTokens.SemanticHighlightReconcilerStrategy.initialReconcile(SemanticHighlightReconcilerStrategy.java:258)
+	at org.eclipse.ui.internal.genericeditor.CompositeReconcilerStrategy.initialReconcile(CompositeReconcilerStrategy.java:48)
+	at org.eclipse.jface.text.reconciler.Reconciler.initialProcess(Reconciler.java:223)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-02 12:11:47.321
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-02 12:11:47.325
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-02 12:11:47.329
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-02 12:11:47.333
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-02 12:11:47.361
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-02 12:11:47.371
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.jface 2 0 2025-08-02 12:11:47.763
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-08-02 12:11:47.763
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-02 12:14:25.105
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:151)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:246)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4119)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3707)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-02 12:17:40.625
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-08-02 12:28:03.972
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:82)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:54)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:353)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:332)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:288)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:378)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:377)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-02 12:33:01.240
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-02 12:39:43.250
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:24:35.108
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1310, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:24:40.781
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1310, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:25:09.601
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1310, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:25:11.683
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1310, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:25:16.611
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1310, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:25:36.753
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1310, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:25:38.566
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1310, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:25:40.964
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1310, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:25:41.662
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1310, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:25:43.773
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1310, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:25:46.291
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:25:53.746
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:25:56.340
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:28:14.428
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:37:36.250
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:37:37.438
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:37:38.463
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:37:50.036
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:37:52.793
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:37:53.411
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:41:11.038
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:41:39.388
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:41:56.546
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:54:07.052
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=495, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:54:07.054
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=502, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:54:07.144
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=582, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:54:07.146
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=589, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:54:07.148
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=606, length=11, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:54:07.149
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=648, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:57:08.514
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:57:59.764
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:58:09.109
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:58:16.050
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:58:58.291
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:59:10.560
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:59:12.768
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:59:13.985
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:59:14.625
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:59:17.307
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:59:47.531
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:59:53.547
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 13:59:55.994
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:00:05.454
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:00:15.774
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:00:16.382
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:00:17.079
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:00:17.730
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:00:18.418
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:00:41.440
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:00:48.026
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:00:50.174
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:00:51.624
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:01:01.024
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:01:10.538
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:01:17.319
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:01:22.368
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:01:23.002
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:01:27.596
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:01:29.659
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:01:30.676
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:01:42.920
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:02:16.529
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:45:34.291
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:45:34.427
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1772, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:45:47.582
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:45:47.584
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1772, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:45:47.586
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2104, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:45:51.323
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:45:51.325
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1772, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 14:45:51.429
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2104, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 20:56:05.488
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1207, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 20:56:05.514
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1488, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 20:56:05.629
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1840, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-02 20:56:13.181
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 20:56:19.573
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1189, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 20:56:19.574
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1470, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 20:56:19.682
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1822, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 20:56:22.838
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1207, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 20:56:22.840
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1488, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 20:56:22.842
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1840, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 20:56:27.876
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1183, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 20:56:27.877
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1464, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 20:56:27.879
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1816, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 20:56:33.485
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1165, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 20:56:33.486
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1446, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 20:56:33.487
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1798, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 20:56:48.961
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1165, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 20:56:48.963
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1428, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 20:56:48.965
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1780, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 20:57:05.050
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1165, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 20:57:05.051
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1428, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 20:57:05.052
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1762, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:37:30.010
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1165, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:37:30.046
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1428, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:37:30.180
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1762, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:37:35.990
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1165, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:37:35.992
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1428, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:37:35.993
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1762, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:26.454
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1146, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:26.456
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1409, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:26.457
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1743, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:28.312
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1144, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:28.314
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1407, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:28.315
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1741, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:30.364
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1146, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:30.366
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1409, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:30.367
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1743, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:31.177
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1147, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:31.179
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1410, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:31.181
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1744, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:31.861
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1146, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:31.864
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1409, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:31.866
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1743, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:33.344
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1147, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:33.345
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1410, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:33.346
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1744, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:34.729
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1150, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:34.730
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1413, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:34.732
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1747, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:36.540
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1165, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:36.541
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1428, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:39:36.543
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1762, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:42:59.806
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1164, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:42:59.807
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1427, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:42:59.809
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:43:02.138
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1164, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:43:02.140
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1427, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:43:02.277
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:43:04.220
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1163, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:43:04.221
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1426, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:43:04.225
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1760, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:43:06.779
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1162, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:43:06.781
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1425, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:43:06.783
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1759, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:45:15.887
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1162, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:45:15.901
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1425, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:45:16.046
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1759, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:45:18.573
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1162, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:45:18.575
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1425, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:45:18.576
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1759, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:47:32.780
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1057, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:47:32.782
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1366, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:47:32.947
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1698, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:47:35.333
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1057, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:47:35.334
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1366, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 21:47:35.335
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1698, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:53:31.898
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:53:32.072
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1772, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:53:32.073
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2104, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:53:44.044
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:53:44.046
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1772, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:53:44.240
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2104, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:53:47.135
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:53:47.136
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1772, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:53:47.141
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2104, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:53:58.359
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1057, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:53:58.360
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1366, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:53:58.485
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1698, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:54:07.653
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1033, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:54:07.655
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1342, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:54:07.659
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1674, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:54:10.568
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1033, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:54:10.569
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1342, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:54:10.573
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1674, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:54:15.409
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1015, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:54:15.410
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1324, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:54:15.415
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1656, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:54:18.047
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1015, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:54:18.048
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1324, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:54:18.049
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1656, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:54:54.170
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1015, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:54:54.171
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1306, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:54:54.343
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1638, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:18.679
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1015, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:18.681
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1324, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:18.683
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1656, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:20.487
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1015, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:20.488
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1306, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:20.491
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1638, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:24.252
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1015, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:24.253
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1306, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:24.255
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1620, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:31.970
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1015, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:31.971
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1306, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:31.974
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1620, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:47.605
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1015, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:47.606
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1306, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:47.607
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1621, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:49.008
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1015, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:49.009
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1306, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:49.010
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1624, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:55.140
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1015, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:55.141
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1306, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:55.143
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1625, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:59.641
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1063, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:59.642
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1354, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:55:59.643
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1677, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:09.999
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1063, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:10.001
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1354, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:10.002
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1677, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:13.978
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1063, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:13.979
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1354, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:13.980
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1677, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:18.171
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1063, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:18.172
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1354, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:18.173
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1677, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:23.508
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1064, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:23.509
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1355, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:23.511
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1678, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:24.618
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1072, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:24.619
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1363, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:24.621
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1686, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:33.609
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1074, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:33.610
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1365, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:33.612
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1688, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:34.211
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1075, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:34.212
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1366, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:34.212
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1689, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:35.690
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1078, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:35.691
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1369, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:35.693
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1692, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:36.716
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1081, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:36.717
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1372, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:36.718
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1695, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:42.887
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1145, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:42.888
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1436, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:56:42.889
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1759, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:57:39.325
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1145, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:57:39.326
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1436, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-02 23:57:39.328
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1759, length=7, tokenType=METHOD]
+!SESSION 2025-08-03 09:58:42.470 -----------------------------------------------
+eclipse.buildId=4.35.0.202504180233
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-03 09:58:58.957
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-08-03 09:58:59.543
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-03 09:59:12.763
+!MESSAGE Logback config file: D:\CDAC 2025\Personal_Finance_Tracker\Backend\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-08-03 09:59:14.151
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-03 09:59:14.151
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-08-03 09:59:15.090
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-03 09:59:15.090
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-08-03 09:59:32.635
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Akshay'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-03 09:59:36.057
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:100)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:421)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.eclipse.jface 2 0 2025-08-03 12:31:02.261
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-08-03 12:31:02.280
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2025-08-03 12:53:04.695 -----------------------------------------------
+eclipse.buildId=4.35.0.202504180233
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-03 12:56:13.303
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-08-03 12:56:14.189
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-03 12:56:21.373
+!MESSAGE Logback config file: D:\CDAC 2025\Personal_Finance_Tracker\Backend\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-08-03 12:56:23.286
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-03 12:56:23.286
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-08-03 12:56:24.631
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-03 12:56:24.631
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-08-03 12:56:47.671
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Akshay'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-03 12:57:04.912
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:100)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:421)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-03 13:09:05.542
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-03 13:09:08.087
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-08-03 13:09:23.785
+!MESSAGE Unexpected null value present!
+!STACK 0
+java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.operations.semanticTokens.SemanticTokensClient.requestFullSemanticTokens(SemanticTokensClient.java:45)
+	at org.eclipse.lsp4e.operations.semanticTokens.SemanticHighlightReconcilerStrategy.fullReconcile(SemanticHighlightReconcilerStrategy.java:239)
+	at org.eclipse.lsp4e.operations.semanticTokens.SemanticHighlightReconcilerStrategy.initialReconcile(SemanticHighlightReconcilerStrategy.java:258)
+	at org.eclipse.ui.internal.genericeditor.CompositeReconcilerStrategy.initialReconcile(CompositeReconcilerStrategy.java:48)
+	at org.eclipse.jface.text.reconciler.Reconciler.initialProcess(Reconciler.java:223)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-03 13:09:24.478
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-03 13:09:24.483
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-03 13:09:24.496
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-03 13:09:24.499
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-03 13:09:24.564
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-03 13:09:24.588
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.jface 2 0 2025-08-03 13:09:40.646
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-08-03 13:09:40.646
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-03 13:11:15.837
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-03 13:14:53.849
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 13:27:38.144
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1145, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 13:27:38.147
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1436, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 13:27:38.295
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1759, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-03 13:37:22.514
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-03 13:37:22.646
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-03 13:37:22.668
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-03 13:37:22.673
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-03 13:37:22.724
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-08-03 13:37:22.747
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+!SESSION 2025-08-03 18:37:35.075 -----------------------------------------------
+eclipse.buildId=4.35.0.202504180233
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-03 18:39:00.397
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-08-03 18:39:01.194
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-03 18:39:06.113
+!MESSAGE Logback config file: D:\CDAC 2025\Personal_Finance_Tracker\Backend\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-08-03 18:39:07.724
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-03 18:39:07.724
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-08-03 18:39:08.584
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-03 18:39:08.584
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-08-03 18:39:28.744
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Akshay'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-03 18:39:39.349
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:100)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:421)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-03 20:20:57.659
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-03 21:34:47.252
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:34:48.108
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=740, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:34:48.110
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1060, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:34:48.111
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1341, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:34:48.112
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1649, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:34:49.980
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=740, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:34:49.981
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1060, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:34:49.982
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1341, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:34:49.983
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1649, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:35:02.889
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=784, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:35:02.890
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1104, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:35:02.892
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1385, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:35:02.894
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1693, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:35:03.456
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=784, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:35:03.458
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1104, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:35:03.460
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1385, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:35:03.462
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1693, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:35:11.892
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=740, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:35:11.894
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1060, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:35:11.896
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1341, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:35:11.898
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1649, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:35:12.448
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=740, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:35:12.450
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1060, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:35:12.452
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1341, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:35:12.454
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1649, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:36:09.469
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=740, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:36:09.471
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1060, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:36:09.473
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1341, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:36:09.477
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1649, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:36:10.509
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=740, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:36:10.511
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1060, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:36:10.512
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1341, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:36:10.513
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1649, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:37:03.464
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=784, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:37:03.466
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1104, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:37:03.624
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1385, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:37:03.626
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1693, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:37:07.403
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=784, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:37:07.403
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1104, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:37:07.405
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1385, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:37:07.406
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1693, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-08-03 21:37:16.469
+!MESSAGE InterruptedException
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:159)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.getResolutions(LSPCodeActionMarkerResolution.java:105)
+	at org.springframework.tooling.boot.ls.markers.LSPBootCodeActionMarkerResolution.getResolutions(LSPBootCodeActionMarkerResolution.java:25)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.getResolutions(MarkerHelpRegistry.java:393)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectMarkerProposals(JavaCorrectionProcessor.java:318)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectProposals(JavaCorrectionProcessor.java:277)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getMarkerAnnotationFixes(ProblemHover.java:154)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:754)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:37:17.000
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=784, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:37:17.002
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1104, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:37:17.003
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1385, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-03 21:37:17.004
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1693, length=7, tokenType=METHOD]
+!SESSION 2025-08-04 09:46:20.976 -----------------------------------------------
+eclipse.buildId=4.35.0.202504180233
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-04 09:46:35.371
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-08-04 09:46:35.865
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-04 09:46:52.727
+!MESSAGE Logback config file: D:\CDAC 2025\Personal_Finance_Tracker\Backend\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-08-04 09:46:53.817
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-04 09:46:53.817
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-08-04 09:46:54.458
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-04 09:46:54.458
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-08-04 09:47:05.499
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Akshay'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-04 09:47:09.366
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:100)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:421)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:03:37.026
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1145, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:03:37.028
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1436, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:03:37.166
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1759, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:03:59.591
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:03:59.593
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1772, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:03:59.595
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2104, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:11:46.538
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=784, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:11:46.578
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1104, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:11:46.744
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1385, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:11:46.745
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1693, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:11:49.957
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=784, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:11:49.958
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1104, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:11:49.959
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1385, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:11:49.961
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1693, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:23:18.565
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=442, length=4, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:23:18.567
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=481, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:23:18.569
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=505, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:23:23.735
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=470, length=4, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:23:23.736
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=509, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:23:23.738
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=533, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:23:28.388
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=527, length=4, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:23:28.390
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=566, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:23:28.392
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=590, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:23:52.791
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=530, length=4, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:23:52.793
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=569, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:23:52.795
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=593, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:23:54.539
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=536, length=4, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:23:54.541
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=575, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:23:54.542
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=599, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:23:55.681
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=592, length=4, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:23:55.683
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=631, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:23:55.684
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=655, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:23:58.429
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=579, length=4, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:23:58.431
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=618, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:23:58.433
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=642, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:27:53.905
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=579, length=4, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:27:53.907
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=618, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:27:54.042
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=642, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-04 10:57:29.721
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:58:07.886
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=784, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:58:07.887
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1104, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:58:07.889
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1385, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 10:58:07.891
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1693, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 11:00:47.062
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=579, length=4, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 11:00:47.064
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=618, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 11:00:47.064
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=642, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-04 11:40:15.170
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 11:40:15.879
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=579, length=4, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 11:40:15.881
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=618, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 11:40:15.883
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=642, length=6, tokenType=PARAMETER_VARIABLE]
+!SESSION 2025-08-04 12:34:02.108 -----------------------------------------------
+eclipse.buildId=4.35.0.202504180233
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-04 12:35:56.652
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-08-04 12:35:57.769
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-04 12:36:05.721
+!MESSAGE Logback config file: D:\CDAC 2025\Personal_Finance_Tracker\Backend\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-08-04 12:36:07.599
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-04 12:36:07.599
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-08-04 12:36:08.881
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-04 12:36:08.881
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-08-04 12:36:36.324
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Akshay'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-04 12:36:38.164
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:100)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:421)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-04 12:56:59.518
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 12:57:15.532
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=765, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 12:57:15.540
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1094, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 12:57:16.269
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=766, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 12:57:16.271
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1095, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 12:57:17.542
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=769, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 12:57:17.548
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1098, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 12:57:18.754
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=819, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 12:57:18.757
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1148, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 12:57:23.824
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=711, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 12:57:23.828
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1040, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 12:58:14.821
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=711, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 12:58:14.824
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1040, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 12:58:19.192
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 12:58:19.195
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1772, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 12:58:19.199
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2104, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-04 13:14:05.829
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:17:19.401
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:17:19.437
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1772, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:17:19.568
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2104, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:47.483
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=495, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:47.485
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=502, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:47.487
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=582, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:47.489
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=589, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:47.491
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=606, length=11, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:47.494
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=648, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:51.638
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=495, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:51.641
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=502, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:51.645
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=582, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:51.647
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=589, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:51.649
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=606, length=11, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:51.652
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=648, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:52.788
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=495, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:52.791
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=502, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:52.794
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=582, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:52.796
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=589, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:52.798
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=606, length=11, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:52.799
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=648, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:52.801
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=925, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:52.802
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=942, length=11, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:52.804
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=984, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:52.806
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1023, length=10, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:52.807
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1059, length=4, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:52.810
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1090, length=5, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:20:52.812
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1121, length=3, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:02.239
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=495, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:02.242
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=502, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:02.246
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=582, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:02.249
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=589, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:02.252
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=606, length=11, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:02.254
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=648, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:15.892
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=495, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:15.894
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=502, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:15.896
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=582, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:15.898
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=589, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:15.899
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=606, length=11, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:15.901
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=648, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:15.902
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=862, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:15.904
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=883, length=11, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:15.906
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=929, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:15.908
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=972, length=10, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:15.911
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1012, length=4, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:15.912
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1047, length=5, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:15.914
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1082, length=3, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:31.683
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=523, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:31.685
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=530, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:31.688
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=610, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:31.690
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=617, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:31.692
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=634, length=11, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:31.695
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=676, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:31.697
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=890, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:31.698
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=911, length=11, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:31.700
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=957, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:31.703
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1000, length=10, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:31.707
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1040, length=4, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:31.709
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1075, length=5, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:31.710
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1110, length=3, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:37.248
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=573, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:37.250
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=580, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:37.252
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=660, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:37.254
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=667, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:37.256
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=684, length=11, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:37.258
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=726, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:37.260
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=940, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:37.262
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=961, length=11, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:37.263
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1007, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:37.264
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1050, length=10, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:37.266
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1090, length=4, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:37.267
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1125, length=5, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:37.269
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1160, length=3, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:41.555
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=602, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:41.558
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=609, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:41.560
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=689, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:41.561
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=696, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:41.563
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=713, length=11, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:41.565
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=755, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:41.569
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=969, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:41.570
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=990, length=11, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:41.572
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1036, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:41.574
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1079, length=10, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:41.576
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1119, length=4, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:41.578
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1154, length=5, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:41.580
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1189, length=3, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:45.534
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=602, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:45.536
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=609, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:45.538
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=689, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:45.540
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=696, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:45.542
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=713, length=11, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:45.545
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=755, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:45.547
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=969, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:45.549
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=990, length=11, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:45.553
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1036, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:45.555
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1079, length=10, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:45.556
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1119, length=4, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:45.558
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1154, length=5, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:21:45.559
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1189, length=3, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:31:24.035
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=579, length=4, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:31:24.062
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=618, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:31:24.206
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=642, length=6, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-04 13:37:48.289
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:37:58.297
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=711, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 13:37:58.299
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1040, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.core 4 4 2025-08-04 13:41:21.917
+!MESSAGE Could not retrieve interfaces
+!STACK 0
+org.eclipse.jdt.internal.compiler.problem.AbortCompilation: Pb(347) The type jakarta.servlet.jsp.tagext.BodyTag cannot be resolved. It is indirectly referenced from required type org.springframework.web.servlet.tags.form.OptionTag
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:159)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:226)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.handle(ProblemReporter.java:2668)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.isClassPathCorrect(ProblemReporter.java:5203)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:125)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:241)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.superInterfaces(BinaryTypeBinding.java:2538)
+	at org.eclipse.jdt.core.dom.TypeBinding.getInterfaces(TypeBinding.java:498)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.isInherited(UnresolvedElementsBaseSubProcessor.java:1058)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.addSimilarTypeProposals(UnresolvedElementsBaseSubProcessor.java:1031)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.collectTypeProposals(UnresolvedElementsBaseSubProcessor.java:791)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.getTypeProposals(UnresolvedElementsSubProcessor.java:143)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:455)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:378)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:381)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:341)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:336)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:465)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getJavaAnnotationFixes(ProblemHover.java:115)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:89)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:754)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 4 2025-08-04 13:41:36.966
+!MESSAGE Could not retrieve interfaces
+!STACK 0
+org.eclipse.jdt.internal.compiler.problem.AbortCompilation: Pb(347) The type jakarta.servlet.jsp.tagext.BodyTag cannot be resolved. It is indirectly referenced from required type org.springframework.web.servlet.tags.form.OptionTag
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:159)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:226)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.handle(ProblemReporter.java:2668)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.isClassPathCorrect(ProblemReporter.java:5203)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:125)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:241)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.superInterfaces(BinaryTypeBinding.java:2538)
+	at org.eclipse.jdt.core.dom.TypeBinding.getInterfaces(TypeBinding.java:498)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.isInherited(UnresolvedElementsBaseSubProcessor.java:1058)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.addSimilarTypeProposals(UnresolvedElementsBaseSubProcessor.java:1031)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.collectTypeProposals(UnresolvedElementsBaseSubProcessor.java:791)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.getTypeProposals(UnresolvedElementsSubProcessor.java:143)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:455)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:378)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:381)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:341)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:336)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:465)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getJavaAnnotationFixes(ProblemHover.java:115)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:89)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:754)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-04 14:09:27.025
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 14:12:36.231
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1145, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 14:12:36.253
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1436, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 14:12:36.399
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1759, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 14:27:20.762
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=784, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 14:27:20.908
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1104, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 14:27:20.925
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1385, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 14:27:20.927
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1693, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jface 2 0 2025-08-04 14:45:32.208
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-08-04 14:45:32.208
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-04 15:05:03.638
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SESSION 2025-08-04 18:22:00.155 -----------------------------------------------
+eclipse.buildId=4.35.0.202504180233
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-04 18:22:05.002
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-08-04 18:22:05.432
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-08-04 18:22:38.648
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-04 18:22:39.796
+!MESSAGE Logback config file: D:\CDAC 2025\Personal_Finance_Tracker\Backend\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-08-04 18:22:40.620
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-04 18:22:40.620
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-08-04 18:22:41.136
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-04 18:22:41.136
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-08-04 18:22:50.472
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Akshay'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-04 18:27:48.857
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-04 18:56:44.111
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-04 19:37:00.859
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:100)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:421)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-04 19:37:35.420
+!MESSAGE LS Hover Html and JDT hover html were naively concatenated as LS hover HTML BODY tag wasn't found
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 19:45:33.507
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 19:45:33.509
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1772, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 19:45:33.524
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2104, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 20:07:19.925
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=784, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 20:07:19.944
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1104, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 20:07:19.958
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1385, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-04 20:07:19.988
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1693, length=7, tokenType=METHOD]
+!SESSION 2025-08-05 19:36:49.425 -----------------------------------------------
+eclipse.buildId=4.35.0.202504180233
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-05 19:38:13.724
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-08-05 19:38:14.551
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-05 19:38:19.321
+!MESSAGE Logback config file: D:\CDAC 2025\Personal_Finance_Tracker\Backend\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-08-05 19:38:20.395
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-05 19:38:20.395
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-08-05 19:38:21.484
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-05 19:38:21.484
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-08-05 19:38:38.368
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Akshay'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-05 19:38:49.924
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-05 19:38:49.926
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:100)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:421)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-05 19:38:53.029
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-05 19:39:47.200
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-05 19:39:47.203
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1772, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-05 19:39:47.211
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2104, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-05 19:40:01.162
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1343, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-05 19:40:01.164
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1772, length=7, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-08-05 19:40:01.168
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2104, length=7, tokenType=METHOD]
