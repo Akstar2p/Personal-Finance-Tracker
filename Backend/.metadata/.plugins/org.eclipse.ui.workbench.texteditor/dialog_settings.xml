@@ -3,7 +3,10 @@
 	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<section name="java.lang.Class">
 		<item key="replaceBarOpen" value="true"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="userService"/>
+			<item value="findByUserAndType"/>
 			<item value="jsonwebtoken"/>
 			<item value="@Transactional"/>
 			<item value="jwtUtil"/>

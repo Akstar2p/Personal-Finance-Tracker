@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import com.financetracker.dao.UserRepository;
 import com.financetracker.dto.ApiResponse;
 import com.financetracker.dto.UserReqDTO;
+import com.financetracker.dto.UserStatsDto;
 import com.financetracker.entities.User;
 import com.financetracker.enums.Role;
 
@@ -51,4 +52,17 @@ public class UserServiceImpl implements UserService {
         User persisted = userRepository.save(user);
         return new ApiResponse("User registered with ID " + persisted.getId());
     }
+    
+    @Override
+    public UserStatsDto getUserStats() {
+        long totalUsers = userRepository.count();
+        long totalAdmins = userRepository.findAll()
+                              .stream()
+                              .filter(user -> user.getRole() == Role.ADMIN)
+                              .count();
+        long totalStandardUsers = totalUsers - totalAdmins;
+
+        return new UserStatsDto(totalUsers, totalAdmins, totalStandardUsers);
+    }
+
 }

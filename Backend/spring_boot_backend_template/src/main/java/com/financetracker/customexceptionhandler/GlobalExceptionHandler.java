@@ -38,8 +38,11 @@ public class GlobalExceptionHandler {
 		System.out.println("in method arg invalid " + e);
 		List<FieldError> fieldErrors = e.getFieldErrors();// list of fiels having validation errs
 		Map<String, String> map = fieldErrors.stream()
-				.collect(Collectors.toMap
-						(FieldError::getField, FieldError::getDefaultMessage));
+			    .collect(Collectors.toMap(
+			        FieldError::getField,
+			        FieldError::getDefaultMessage,
+			        (msg1, msg2) -> msg1 + "; " + msg2 // merge function
+			    ));
 		return ResponseEntity.status(HttpStatus.BAD_REQUEST)
 				.body(map);
 	}

@@ -1,7 +1,0 @@
-package com.financetracker.services;
-
-import com.financetracker.dto.UserReqDTO;
-
-public interface UserService {
-    Object signUp(UserReqDTO dto);
-}

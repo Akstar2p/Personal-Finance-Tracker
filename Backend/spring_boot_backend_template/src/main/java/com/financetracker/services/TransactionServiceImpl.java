@@ -5,6 +5,8 @@ import java.time.LocalDate;
 import java.time.YearMonth;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.springframework.stereotype.Service;
 
@@ -15,14 +17,15 @@ import com.financetracker.dao.CategoryRepository;
 import com.financetracker.dao.GoalRepository;
 import com.financetracker.dao.TransactionRepository;
 import com.financetracker.dao.UserRepository;
+import com.financetracker.dto.CategorySpendDto;
 import com.financetracker.dto.TransactionRequestDto;
 import com.financetracker.dto.TransactionResponseDto;
+import com.financetracker.dto.TransactionSummaryDto;
 import com.financetracker.entities.Budget;
 import com.financetracker.entities.Category;
 import com.financetracker.entities.Goal;
 import com.financetracker.entities.Transaction;
 import com.financetracker.entities.User;
-import com.financetracker.enums.GoalStatus;
 import com.financetracker.enums.TransactionType;
 import com.financetracker.utils.TransactionMapper;
 
@@ -48,6 +51,9 @@ public class TransactionServiceImpl implements TransactionService {
 
 		Category category = categoryRepository.findById(dto.getCategoryId())
 				.orElseThrow(() -> new ResourceNotFoundException("Category not found"));
+		if(category.getType()!= dto.getType()) {
+			throw new BadRequestException(category.getName() +" is not an "+dto.getType()+" category" );
+		}
 
 		Goal goal = null;
 		if (dto.getGoalId() != null) {
@@ -114,6 +120,81 @@ public class TransactionServiceImpl implements TransactionService {
 		return getBalance(user.getId());
 	}
 
+	@Override
+	public TransactionSummaryDto getUserSummaryByEmail(String email) {
+		User user = userRepository.findByEmail(email)
+				.orElseThrow(() -> new ResourceNotFoundException("User not found: " + email));
+
+		List<Transaction> txns = transactionRepository.findByUserIdOrderByDateDesc(user.getId());
+
+		BigDecimal income = txns.stream().filter(t -> t.getType() == TransactionType.INCOME).map(Transaction::getAmount)
+				.reduce(BigDecimal.ZERO, BigDecimal::add);
+		BigDecimal expense = txns.stream().filter(t -> t.getType() == TransactionType.EXPENSE)
+				.map(Transaction::getAmount).reduce(BigDecimal.ZERO, BigDecimal::add);
+
+		return new TransactionSummaryDto(income, expense, income.subtract(expense));
+	}
+
+	@Override
+	public List<CategorySpendDto> getSpendByCategory(String email) {
+		User user = userRepository.findByEmail(email)
+				.orElseThrow(() -> new ResourceNotFoundException("User not found: " + email));
+
+		List<Transaction> txns = transactionRepository.findByUserIdOrderByDateDesc(user.getId()).stream()
+				.filter(t -> t.getType() == TransactionType.EXPENSE).toList();
+
+		return txns.stream()
+				.collect(Collectors.groupingBy(txn -> txn.getCategory().getName(),
+						Collectors.reducing(BigDecimal.ZERO, Transaction::getAmount, BigDecimal::add)))
+				.entrySet().stream().map(e -> new CategorySpendDto(e.getKey(), e.getValue())).toList();
+	}
+
+	@Override
+	public List<TransactionResponseDto> getFilteredTransactions(String email, String month, TransactionType type,
+			Long categoryId, Long goalId) {
+		User user = userRepository.findByEmail(email)
+				.orElseThrow(() -> new ResourceNotFoundException("User not found"));
+
+		// Start with all user's transactions
+
+		/*
+		 * 🔄 Notes: This approach filters in memory (after pulling all transactions for
+		 * the user).
+		 * It's fine for small to moderate transaction history.
+		 * Later, for large datasets, consider moving filtering to JPQL/CriteriaQuery
+		 * for performance + pagination.
+		 * 
+		 */
+		List<Transaction> all = transactionRepository.findByUserIdOrderByDateDesc(user.getId());
+
+		Stream<Transaction> stream = all.stream();
+
+		// Filter by month if provided
+		if (month != null && !month.isBlank()) {
+			YearMonth ym = YearMonth.parse(month); // format "2025-08"
+			LocalDate start = ym.atDay(1);
+			LocalDate end = ym.plusMonths(1).atDay(1);
+			stream = stream.filter(tx -> !tx.getDate().isBefore(start) && tx.getDate().isBefore(end));
+		}
+
+		// Filter by type
+		if (type != null) {
+			stream = stream.filter(tx -> tx.getType() == type);
+		}
+
+		// Filter by category
+		if (categoryId != null) {
+			stream = stream.filter(tx -> tx.getCategory() != null && tx.getCategory().getId().equals(categoryId));
+		}
+
+		// Filter by goal
+		if (goalId != null) {
+			stream = stream.filter(tx -> tx.getGoal() != null && tx.getGoal().getId().equals(goalId));
+		}
+
+		return stream.map(mapper::toDto).toList();
+	}
+
 	public BigDecimal getBalance(Long userId) {
 		// Return cached balance
 		User user = userRepository.findById(userId).orElseThrow(() -> new ResourceNotFoundException("User not found"));
@@ -165,14 +246,13 @@ public class TransactionServiceImpl implements TransactionService {
 			}
 		}
 	}
-	
-	private BigDecimal calculateBalanceEffect(TransactionRequestDto dto, BigDecimal goalContribution) {
-	    if (dto.getType() == TransactionType.INCOME) {
-	        return dto.getAmount().subtract(goalContribution);
-	    } else {
-	        return dto.getAmount().negate(); // full deduction
-	    }
-	}
 
+	private BigDecimal calculateBalanceEffect(TransactionRequestDto dto, BigDecimal goalContribution) {
+		if (dto.getType() == TransactionType.INCOME) {
+			return dto.getAmount().subtract(goalContribution);
+		} else {
+			return dto.getAmount().negate(); // full deduction
+		}
+	}
 
 }

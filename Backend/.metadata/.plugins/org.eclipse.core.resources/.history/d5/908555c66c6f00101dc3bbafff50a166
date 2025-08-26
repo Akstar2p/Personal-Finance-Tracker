@@ -1,5 +1,0 @@
-package com.financetracker.security;
-
-public class JwtUtils {
-
-}

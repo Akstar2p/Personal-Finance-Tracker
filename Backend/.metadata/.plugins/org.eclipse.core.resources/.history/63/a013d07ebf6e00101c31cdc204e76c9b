@@ -1,5 +1,0 @@
-package com.financetracker.enums;
-
-public enum GoalStatus {
-
-}

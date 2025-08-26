@@ -1,5 +1,0 @@
-package com.financetracker.customexceptionhandler;
-
-public sealed class GlobalExceptionHandler {
-
-}

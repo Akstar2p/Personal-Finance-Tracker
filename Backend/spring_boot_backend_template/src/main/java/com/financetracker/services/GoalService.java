@@ -12,5 +12,7 @@ public interface GoalService {
 
 	GoalResponseDto getGoalById(Long goalId, String userEmail);
 
+	GoalResponseDto updateGoal(Long goalId, GoalRequestDto dto, String userEmail);
+
 	void cancelGoal(Long goalId, String userEmail);
 }

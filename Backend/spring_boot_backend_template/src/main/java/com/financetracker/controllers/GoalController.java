@@ -19,6 +19,7 @@ import org.springframework.security.access.prepost.PreAuthorize;
 
 @RestController
 @RequestMapping("/api/goals")
+@CrossOrigin(origins = "http://localhost:5173")
 @RequiredArgsConstructor
 public class GoalController {
 
@@ -51,4 +52,15 @@ public class GoalController {
         goalService.cancelGoal(id, principal.getName());
         return ResponseEntity.ok(new ApiResponse("Goal cancelled")); // reuse your ApiResponse DTO
     }
+    
+    @PutMapping("/{id}")
+    @PreAuthorize("hasRole('USER')")
+    public ResponseEntity<GoalResponseDto> updateGoal(
+            @PathVariable("id") Long id,
+            @Valid @RequestBody GoalRequestDto dto,
+            Principal principal) {
+        GoalResponseDto updated = goalService.updateGoal(id, dto, principal.getName());
+        return ResponseEntity.ok(updated);
+    }
+
 }

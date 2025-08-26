@@ -1,5 +1,0 @@
-package com.financetracker.customexceptions;
-
-public class ResourceNotFoundException {
-
-}
